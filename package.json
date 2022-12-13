@@ -1,0 +1,17 @@
+{
+  "name": "coderli-vitepress",
+  "version": "1.0.0",
+  "description": "this is a blog/wiki",
+  "main": "index.js",
+  "author": "coderli",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.31",
+    "vue": "^3.2.45"
+  }
+}
