@@ -10,8 +10,7 @@ export default {
 		nav: [
 			{
 				text: '首页',
-				link: '/index/',
-				activeMatch: '/index/'
+				link: '/index',
 			},
 			{
 				text: '前端小食堂',
