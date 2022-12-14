@@ -1,1 +1,0 @@
-import{_ as n,c as e,o as i,a}from"./app.0f34c101.js";const w=JSON.parse('{"title":"nginx官网","description":"","frontmatter":{"tags":"nginx"},"headers":[],"relativePath":"backend/nginx/index.md"}'),r={name:"backend/nginx/index.md"},t=a("",28),l=[t];function o(g,d,c,h,x,s){return i(),e("div",null,l)}const f=n(r,[["render",o]]);export{w as __pageData,f as default};

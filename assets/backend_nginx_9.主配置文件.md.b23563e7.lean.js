@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as p}from"./app.0f34c101.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"backend/nginx/9.主配置文件.md"}'),e={name:"backend/nginx/9.主配置文件.md"},l=p("",16),o=[l];function t(c,r,i,D,d,y){return a(),n("div",null,o)}const A=s(e,[["render",t]]);export{_ as __pageData,A as default};
