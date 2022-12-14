@@ -1,20 +1,22 @@
 export const nestjsSidebar = [
 	{
-		text:'NestJS基础',
+		text: 'NestJS基础',
 		collapsible: true,
 		collapsed: false,
-		items:[
-			{ text: '核心概念', link: '/nestjs/overview/concepts',activeMatch: '/nestjs/'},
-			{ text: 'controllers', link: '/nestjs/overview/controllers' },
+		items: [
+			{text: '核心概念', link: '/backend/nestjs/overview/concepts'},
+			{text: '核心概念小结', link: '/backend/nestjs/overview/conceptsSummary'},
+			{text: 'ExecutionContext', link: '/backend/nestjs/overview/ExecutionContext'},
 		]
 	},
 	{
-		text:'NestJS进阶',
+		text: 'NestJS进阶',
 		collapsible: true,
 		collapsed: false,
-		items:[
-			{ text: '生命周期', link: '/nestjs/fundamentals/lifetime' },
-			{ text: '依赖注入', link: '/nestjs/fundamentals/dependencyInjection' },
+		items: [
+			{text: '生命周期', link: '/backend/nestjs/fundamentals/lifetime'},
+			{text: '依赖注入', link: '/backend/nestjs/fundamentals/dependencyInjection'},
+			{text: '打包部署', link: '/backend/nestjs/fundamentals/package'},
 		]
 	}
 ]
