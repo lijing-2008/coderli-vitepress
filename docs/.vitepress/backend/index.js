@@ -12,7 +12,7 @@ export const backendNav={
 			text: '服务',
 			items:[
 				{text: 'Nginx', link:'/backend/nginx/'},
-				{text: 'Git', link:'/backend/git/'},
+				{text: 'Git', link:'/backend/gitLearn/'},
 			]
 		},
 	]
