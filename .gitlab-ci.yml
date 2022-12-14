@@ -1,0 +1,13 @@
+image: node:16
+pages:
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - yarn install
+    - yarn docs:build
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
