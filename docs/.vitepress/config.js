@@ -5,7 +5,6 @@ export default {
 	base: '/coderli-vitepress/',
 	title: '蒸汽机里の业余小码农',
 	description: 'Talk is cheap, show me your code.',
-	outDir:'../public',
 	themeConfig: {
 		siteTitle: 'coder の life',
 		logo: '/img/logo.png',
