@@ -79,7 +79,7 @@ export default {
 		},
 
 		socialLinks: [
-			{icon: 'github', link: 'https://github.com/lijing-2008'},
+			{icon: 'github', link: 'https://github.com/lijing-2008/coderli-vitepress'},
 		]
 
 	}

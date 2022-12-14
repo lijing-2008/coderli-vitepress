@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开启旅程 
-      link: /backend/
+      link: /colorfulLife/
     - theme: alt
       text: GitHub
       link: https://github.com/lijing-2008/coderli-vitepress
