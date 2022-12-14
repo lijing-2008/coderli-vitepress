@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a}from"./app.86a3c011.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"colorfulLife/index.md"}'),c={name:"colorfulLife/index.md"},n=a("p",null,"welcome to my colorful life.",-1),r=[n];function s(l,i,d,_,f,p){return t(),o("div",null,r)}const x=e(c,[["render",s]]);export{u as __pageData,x as default};
