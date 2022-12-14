@@ -38,7 +38,7 @@ export default {
 			// 后端
 			'/backend/nestjs/': nestjsSidebar,
 			'/backend/nginx/': nginxSidebar,
-			'/backend/git/': gitSidebar,
+			'/backend/gitLearn/': gitSidebar,
 			// 巨人的肩膀
 			'/bigMan/': bigManSidebar,
 			// bug集中营
