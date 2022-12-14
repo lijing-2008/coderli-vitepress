@@ -1,1 +1,1 @@
-hello my colorful life.
+welcome to my colorful life.

@@ -1,10 +1,7 @@
 import { walk } from "../scripts/utils";
-const nginxItems = walk('./docs/backend/nginx')
+const baseDir = './docs/backend/nginx/'
 export const nginxSidebar = [
-	{
-		text: 'Nginx基础',
-		collapsible: true,
-		collapsed: false,
-		items: nginxItems	
-    },
+	walk(baseDir,'基础知识'),
+	walk(baseDir,'配置相关'),
+	walk(baseDir,'其它'),
 ]
