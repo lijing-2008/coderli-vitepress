@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as l,d as n}from"./app.dd808e9e.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"backend/gitLearn/远程仓库/2.pull拉取更新.md"}'),o={name:"backend/gitLearn/远程仓库/2.pull拉取更新.md"},e=n("",3),t=[e];function p(c,i,r,_,d,D){return l(),a("div",null,t)}const u=s(o,[["render",p]]);export{C as __pageData,u as default};
