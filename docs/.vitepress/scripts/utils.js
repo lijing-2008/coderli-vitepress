@@ -6,7 +6,7 @@ export const walk = function (dir, subDir = '') {
 	let results = [];
 	const list = fs.readdirSync(dir + subDir);
 	list.forEach((file) => {
-		file = dir + subDir+ '/' + file;
+		file = dir + subDir + '/' + file;
 		if (path.extname(file) === '.md') {
 			results.push(file);
 		}
