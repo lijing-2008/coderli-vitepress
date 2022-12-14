@@ -5,6 +5,7 @@ import {bigManSidebar} from "./bigMan/bigManSiderbar";
 import {bugSidebar} from "./bug/bugSiderbar";
 import {frontendNav} from "./frontend";
 import {backendNav} from "./backend";
+import {gitSidebar} from "./backend/gitSidebar";
 export default {
 	base: '/coderli-vitepress/',
 	title: '蒸汽机里の业余小码农',
@@ -37,6 +38,7 @@ export default {
 			// 后端
 			'/backend/nestjs/': nestjsSidebar,
 			'/backend/nginx/': nginxSidebar,
+			'/backend/git/': gitSidebar,
 			// 巨人的肩膀
 			'/bigMan/': bigManSidebar,
 			// bug集中营
