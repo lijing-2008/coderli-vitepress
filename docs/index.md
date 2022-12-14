@@ -10,14 +10,14 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 开启旅程 
+      text:  Welcome!
       link: /colorfulLife/
     - theme: alt
       text: GitHub
       link: https://github.com/lijing-2008/coderli-vitepress
 features:
-  - icon: 🚀
-    title: 还没想好写什么
+  - icon: 🧑🏼‍💻‍
+    title: 这里还没想好写点什么
     details: waiting...
 ---
 

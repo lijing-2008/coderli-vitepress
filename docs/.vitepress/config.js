@@ -1,6 +1,10 @@
 import {nestjsSidebar} from "./backend/nestjsSiderbar";
-import {colorfulSidebar} from "./backend/colorfulSiderbar";
+import {colorfulSidebar} from "./colorfulLife/colorfulSiderbar";
 import { nginxSidebar } from "./backend/nginxSidebar";
+import {bigManSidebar} from "./bigMan/bigManSiderbar";
+import {bugSidebar} from "./bug/bugSiderbar";
+import {frontendNav} from "./frontend";
+import {backendNav} from "./backend";
 export default {
 	base: '/coderli-vitepress/',
 	title: '蒸汽机里の业余小码农',
@@ -13,52 +17,8 @@ export default {
 				text: '首页',
 				link: '/index',
 			},
-			{
-				text: '前端小食堂',
-				activeMatch: 'frontend',
-				items:[
-					{
-						text: '基本功',
-						items:[
-							{text: 'Html', link:'/frontend/html/'},
-							{text: 'CSS', link:'/frontend/css/'},
-							{text: 'JavaScript', link:'/frontend/javascript/'},
-							{text: 'TypeScript', link:'/frontend/typescript/'},
-						]
-					},
-					{
-						text: '框架',
-						items:[
-							{text: 'React', link:'/frontend/react/'},
-							{text: 'Vue', link:'/frontend/vue/'},
-						]
-					},
-					{
-						text: '丰富资源',
-						items:[
-							{text: '组件库', link:'/frontend/ui/'},
-						]
-					}
-				]
-			},
-			{
-				text: '后端自习室',
-				activeMatch: '/backend/',
-				items: [
-					{
-						text: '框架',
-						items:[
-							{text: 'NestJS', link:'/backend/nestjs/'},
-						]
-					},
-					{
-						text: '服务器',
-						items:[
-							{text: 'Nginx', link:'/backend/nginx/'},
-						]
-					},
-				]
-			},
+			frontendNav,
+			backendNav,
 			{
 				text: '巨人的肩膀',
 				link: '/bigMan/',
@@ -73,8 +33,15 @@ export default {
 			},
 		],
 		sidebar: {
+			// 前端
+			// 后端
 			'/backend/nestjs/': nestjsSidebar,
 			'/backend/nginx/': nginxSidebar,
+			// 巨人的肩膀
+			'/bigMan/': bigManSidebar,
+			// bug集中营
+			'/bug/': bugSidebar,
+			// 缤纷世界
 			'/colorfulLife/': colorfulSidebar,
 		},
 
