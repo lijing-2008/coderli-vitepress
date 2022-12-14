@@ -41,7 +41,7 @@ nginx的web优势有以下几点
 2. `etc/nginx/nginx.conf`：[[nginx主配置文件]]
 3. `etc/nginx/conf.d`：[[nginx子配置目录]]
 4. `default.conf`：[[nginx默认配置]]
-5. `mine.types`：[[nginx文件关联程序]](什么类型的文件用什么程序打开)
+5. `mine.types`：[[nginx文件关联程序]]
 6. `etc/nginx/modules`：[[nginx模块]]文件夹，用于扩展功能
 7. `usr/sbin/nginx`：主程序文件
 
