@@ -8,6 +8,7 @@ import {backendNav} from "./backend";
 import {gitSidebar} from "./backend/gitSidebar";
 export default {
 	base: '/coderli-vitepress/',
+	outDir: '../public',
 	title: '蒸汽机里の业余小码农',
 	description: 'Talk is cheap, show me your code.',
 	themeConfig: {
